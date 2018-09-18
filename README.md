@@ -1,1 +1,1 @@
-I. CSharp Advanced - September 2018
+CSharp Advanced - September 2018
