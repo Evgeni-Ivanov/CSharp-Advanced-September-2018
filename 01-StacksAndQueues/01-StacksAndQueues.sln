@@ -1,9 +1,31 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{905B98AC-D599-4C8D-A27F-40FCFC587F09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{724FA64C-811E-4A3C-A7AD-225195920834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.01.-ReverseNumbersWithAStack", "Exercises\01.01.-ReverseNumbersWithAStack\01.01.-ReverseNumbersWithAStack.csproj", "{2D128DB8-F223-4106-8898-1318DD07EDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.02.-ReverseNumbersWithAStack", "Exercises\01.02.-ReverseNumbersWithAStack\01.02.-ReverseNumbersWithAStack.csproj", "{046BD6AB-7437-42ED-A057-5DFA20534153}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D128DB8-F223-4106-8898-1318DD07EDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D128DB8-F223-4106-8898-1318DD07EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D128DB8-F223-4106-8898-1318DD07EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D128DB8-F223-4106-8898-1318DD07EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046BD6AB-7437-42ED-A057-5DFA20534153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046BD6AB-7437-42ED-A057-5DFA20534153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046BD6AB-7437-42ED-A057-5DFA20534153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046BD6AB-7437-42ED-A057-5DFA20534153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D128DB8-F223-4106-8898-1318DD07EDBF} = {724FA64C-811E-4A3C-A7AD-225195920834}
+		{046BD6AB-7437-42ED-A057-5DFA20534153} = {724FA64C-811E-4A3C-A7AD-225195920834}
 	EndGlobalSection
 EndGlobal
